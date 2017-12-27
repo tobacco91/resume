@@ -83,7 +83,9 @@
     "source": "https://github.com/tobacco91/proxy",
     "demo": "",
     "description": [
-      "可以设置获取cookie、session",
+      "这是一个node版本的session实现 用cookie实现",
+      "用到了redis缓存",
+      "可以设置和获取cookie、session",
       "可以通过设置session的时间参数 定时清除session"
     ],
     "stack": ["js"],
