@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 var plugins = require('gulp-load-plugins')();
-
+var pdf = require('gulp-html-pdf')
 var path = require('path');
 var gls = require('gulp-live-server');
 
@@ -104,3 +104,10 @@ gulp.task('deploy', ['build-for-deploy'], function() {
 
 /****************** Default ****************/
 gulp.task('default', ['server', 'watch']);
+
+
+
+
+gulp.task('to-pdf').src('./dist/index.html')
+  .pipe(pdf())
+  .pipe(gulp.dest('./dist/static'))
