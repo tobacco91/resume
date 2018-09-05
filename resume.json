@@ -13,6 +13,9 @@
     },
     "github": {
       "id": "tobacco91"
+    },
+    "phone": {
+        "id": "18875140931"
     }
   },
   "links": [{
@@ -27,26 +30,16 @@
   "education": [{
     "type": "undergraduate",
     "name": "重庆邮电大学",
-    "major": "信息安全",
+    "major": "计算机科学与技术学院-信息安全",
     "start": "2015",
     "end": "2019",
     "honor": [
       "2016 - 2017 学年度校**三等奖学金**",
-      "专业排名 **前5%**"
+      "专业排名 **前5%**",
+      "通过CET-4"
     ]
   }],
-  "language": [{
-    "type": "english",
-    "certificate": [{
-      "type": "CET-4",
-      "full": "710",
-      "score": "486"
-    }],
-    "description": [
-      "能流畅阅读英文专业书籍、文档及其他资料",
-      "能够在英文邮件列表、Stack Overflow 等社区正常交流"
-    ]
-  }],
+  "language": [],
   "experience": [{
     "type": "internship",
     "techtype": "nodejs",
@@ -64,13 +57,13 @@
     "type": "project",
     "techtype": "frontend",
     "project_type": "personal",
-    "name": "尝试实现的mvvm框架",
+    "name": "前端组件化框架",
     "source": "https://github.com/tobacco91/twenty",
     "demo": "",
     "description": [
-        "一个简易的mvvm框架",
-        "这个框架拥有模板引擎（view层），state（数据层），事件处理，观察者模块，view-model关联模块 这几个模块",
-        "采用了双向绑定的设计思想",
+        "实现了`组件化`和`单向数据流`",
+        "该框架并没有用到虚拟dom来优化性能，而是使用了不同的思想来减少dom的操作",
+        "这个框架拥有 `模板引擎（view层）`，`state（数据层）`，`事件处理`，`观察者模块`，`view-model 关联模块`,`组件模块` 这几个模块",
         "使用webpack打包"
     ],
     "stack": ["js"],
@@ -79,12 +72,11 @@
     "type": "project",
     "techtype": "frontend",
     "project_type": "personal",
-    "name": "session-cookie的实现",
-    "source": "https://github.com/tobacco91/proxy",
+    "name": "node-session实现",
+    "source": "https://github.com/tobacco91/session-cookie",
     "demo": "",
     "description": [
-      "这是一个node版本的session实现 用cookie实现",
-      "用到了redis缓存",
+      "基于 `redis` 缓存与cookie实现的一个简单版本的session",
       "可以设置和获取cookie、session",
       "可以通过设置session的时间参数 定时清除session"
     ],
@@ -94,11 +86,12 @@
     "type": "project",
     "techtype": "backend",
     "project_type": "personal",
-    "name": "proxy",
-    "source": "https://github.com/tobacco91/proxy",
+    "name": "十九大专题网-移动端",
+    "source": "https://github.com/tobacco91/react-red",
     "description": [
-      "一个简单的node微信框架",
-      "有node路由模块、微信接口模块、请求追踪模块"
+      "此网站分为多个内容模块通过前端路由控制，采用单页面技术实现",
+      "前端用到`webpack`,`react`,`react-router`,`rem移动端适配方案`,`less`等",
+      "通过此项目基本熟练react机制，对生命周期，虚拟dom以及单向数据流有了一定认识"
     ],
     "stack": ["three.js", "mongodb", "express"],
     "compatibility": "IE10+"
@@ -108,25 +101,27 @@
     "item": [{
       "summary": "`HTML&CSS`",
       "description": [
-        "能够编写语义化的HTML 熟悉基本布局",
+        "能够编写语义化的HTML",
+        "熟悉基本布局",
         "还原视觉稿、页面重构以及添加相应的交互效果",
-        "能够使用已标准化的 HTML5/CSS3 新特性",
-        "熟悉 iconfon 等优化方案",
-        "熟悉 移动端和PC端 的差异"
+        "能够使用已标准化的 `HTML5/CSS3` 新特性",
+        "了解移动端项目开发"
       ]
     },{
       "summary": "`JavaScript`",
       "description": [
-        "能熟练使用 原生JS 编码",
-        "熟悉 面向对象 的 JavaScript",
-        "熟悉 React框架,能熟练使用react框架写项目",
-        "熟悉Ajax请求以及前端基本的跨域方法"
+        "熟悉ECMAScript(JavaScript) 和 `ES6、7` 标准",
+        "能够脱离类库和框架，熟练使用`原生JS编码`",
+        "熟悉 `面向对象` 的编程方式，掌握 `原型链`、`闭包`、`作用域` 等特性",
+        "熟练掌握ajax请求以及前端基本的跨域方法"
       ]
     }, {
       "summary": "`前端工程实践`",
       "description": [
-        "熟悉gulp webpack 这类前端自动化工具的使用",
-        "编写 Hybrid App和native 交互"
+        "了解 `jQuery`、`React`等前端库/框架,能熟练在实际项目中使用",
+        "使用 `ES6/ES7` 编写项目代码，借助 `babel` 编译",
+        "常用`gulp`、`webpack` 等前端 `自动化`、`模块化` 方案",
+        "使用`less`"
       ]
     }]
   }, {
@@ -134,20 +129,21 @@
     "item": [{
       "summary": "`Node.js`",
       "description": [
-        "熟悉 ES6、7 标准",
-        "熟悉 node模块化编程",
-        "了解node异步i/o和事件循环机制",
+        "熟悉 node `模块化` 编程",
+        "了解 `node异步i/o` 和 `事件循环机制` ",
         "能使用 原生node、Express、Thinkjs开发 WebServer",
-        "有使用 Mysql、Redis 等数据库的经验"
+        "实现过`nodejs路由`"
       ]
     },{ 
       "summary": "`其他`",
       "description": [
-        "熟悉php",
-        "能使用 Apache/PHP 开发 Web Server",
-        "熟悉服务端 MVC，能使用 ThinkPHP 框架编写应用",
+        "熟悉 `php`",
+        "能使用 `Apache/PHP` 开发 Web Server",
+        "实现过`php路由`",
+        "熟悉后端 `MVC`，能使用 `ThinkPHP` 框架编写应用",
+        "有使用 `Mysql`、`Redis` 数据库的经验",
         "有使用 `nginx` 反向代理的经验",
-        "了解 HTTP, tcp/ip 等协议"
+        "了解 `HTTP`, `tcp/ip` 协议"
       ]
     }]
   },{
@@ -155,8 +151,11 @@
     "item": [
         "学习能力较强，能够查阅文档学习一些先进技术",
         "会科学上网，使用 Google，技术问题能够阅读参考StackOverflow等技术社区的解决方案",
-        "版本控制使用git，使用GitHub协作开发，熟悉协同开发流程，冲突解决",
-        "开发环境 OS X ，熟悉常用的Linux命令。在云服务器上搭建所需环境(Apache、PHP、Nginx、MySQL等)"
+        "版本控制使用`git`，使用GitHub协作开发，熟悉协同开发流程，冲突解决",
+        "开发环境 `OS X` ，熟悉常用的Linux命令。在云服务器上搭建所需环境(Apache、PHP、Nginx、MySQL等)"
     ]
   }]
 }
+
+
+
