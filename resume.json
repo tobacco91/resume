@@ -4,15 +4,18 @@
   "resume_title": "陈馨怡 - 个人简历",
   "name": "陈馨怡",
   "repo": "https://github.com/tobacco91?tab=repositories",
-  "job_description": ["前端工程师"],
+  "job_description": ["java开发工程师"],
   "contact": {
     "email": "91chenxinyi@gmail.com",
     "wechat": {
       "id": "18875140931",
-      "qrcode": "static/wechat.jpg"
+      "qrcode": "static/wx.jpg"
     },
     "github": {
       "id": "tobacco91"
+    },
+    "phone": {
+      "number": "18875140931"
     }
   },
   "links": [{
@@ -46,117 +49,97 @@
       "能流畅阅读英文专业书籍、文档及其他资料",
       "能够在英文邮件列表、Stack Overflow 等社区正常交流"
     ]
-  }],
-  "experience": [{
-    "type": "internship",
-    "techtype": "nodejs",
-    "place": "红岩网校工作站web研发部副部长",
-    "start": "2016.05",
-    "end": "至今",
-    "name": "Node.js 开发/前端开发",
-    "description": [
-      "`重邮小帮手(校团委官方微信服务号)`校内学生关注率第一(90%+)的公众号",
-      "主要负责日常功能模块运行，日常项目、API接口维护，git仓库管理等工作",
-      "2017年2月获得 全国高校服务号排行榜 第二名"
-    ],
-    "stack": ["nodejs"]
-  }, {
-    "type": "project",
-    "techtype": "frontend",
-    "project_type": "personal",
-    "name": "尝试实现的mvvm框架",
-    "source": "https://github.com/tobacco91/twenty",
-    "demo": "",
-    "description": [
-        "一个简易的mvvm框架",
-        "这个框架拥有模板引擎（view层），state（数据层），事件处理，观察者模块，view-model关联模块 这几个模块",
-        "采用了双向绑定的设计思想",
-        "使用webpack打包"
-    ],
-    "stack": ["js"],
-    "compatibility": "IE9+"
-  }, {
-    "type": "project",
-    "techtype": "frontend",
-    "project_type": "personal",
-    "name": "session-cookie的实现",
-    "source": "https://github.com/tobacco91/proxy",
-    "demo": "",
-    "description": [
-      "这是一个node版本的session实现 用cookie实现",
-      "用到了redis缓存",
-      "可以设置和获取cookie、session",
-      "可以通过设置session的时间参数 定时清除session"
-    ],
-    "stack": ["js"],
-    "compatibility": "IE9+"
-  }, {
-    "type": "project",
-    "techtype": "backend",
-    "project_type": "personal",
-    "name": "proxy",
-    "source": "https://github.com/tobacco91/proxy",
-    "description": [
-      "一个简单的node微信框架",
-      "有node路由模块、微信接口模块、请求追踪模块"
-    ],
-    "stack": ["three.js", "mongodb", "express"],
-    "compatibility": "IE10+"
-  }],
-  "skills": [{
-    "type": "frontend",
-    "item": [{
-      "summary": "`HTML&CSS`",
-      "description": [
-        "能够编写语义化的HTML 熟悉基本布局",
-        "还原视觉稿、页面重构以及添加相应的交互效果",
-        "能够使用已标准化的 HTML5/CSS3 新特性",
-        "熟悉 iconfon 等优化方案",
-        "熟悉 移动端和PC端 的差异"
-      ]
-    },{
-      "summary": "`JavaScript`",
-      "description": [
-        "能熟练使用 原生JS 编码",
-        "熟悉 面向对象 的 JavaScript",
-        "熟悉 React框架,能熟练使用react框架写项目",
-        "熟悉Ajax请求以及前端基本的跨域方法"
-      ]
-    }, {
-      "summary": "`前端工程实践`",
-      "description": [
-        "熟悉gulp webpack 这类前端自动化工具的使用",
-        "编写 Hybrid App和native 交互"
-      ]
-    }]
-  }, {
+  }],"skills": [{
     "type": "backend",
     "item": [{
-      "summary": "`Node.js`",
-      "description": [
-        "熟悉 ES6、7 标准",
-        "熟悉 node模块化编程",
-        "了解node异步i/o和事件循环机制",
-        "能使用 原生node、Express、Thinkjs开发 WebServer",
-        "有使用 Mysql、Redis 等数据库的经验"
-      ]
-    },{ 
+        "summary": "`JAVA`",
+        "description": [
+          "掌握`Spring Boot`,`SpringMVC`,`Mybatis`等开源框架的使用",
+          "掌握基本的数据库操作",
+          "有使用 `nginx` 反向代理的经验",
+          "熟悉面向对象技术和常用设计模式",
+          "熟悉`redis`的使用"
+        ]
+      },{
       "summary": "`其他`",
       "description": [
-        "熟悉php",
-        "能使用 Apache/PHP 开发 Web Server",
-        "熟悉服务端 MVC，能使用 ThinkPHP 框架编写应用",
-        "有使用 `nginx` 反向代理的经验",
-        "了解 HTTP, tcp/ip 等协议"
+        "熟悉 node `模块化` 编程，了解Node`异步i/o`和`事件循环机制`",
+        "能使用 原生node、Express、Thinkjs开发 WebServer",
+        "熟悉 `php`，能使用 `ThinkPHP` 开发 WebServer"
       ]
     }]
   },{
+    "type": "frontend",
+    "item": [{
+      "summary": "",
+      "description": [
+        "能独立完成前端项目",
+        "熟悉前端工程化方案"
+    ]
+    }]
+  }, {
     "type": "miscellaneous",
     "item": [
         "学习能力较强，能够查阅文档学习一些先进技术",
         "会科学上网，使用 Google，技术问题能够阅读参考StackOverflow等技术社区的解决方案",
-        "版本控制使用git，使用GitHub协作开发，熟悉协同开发流程，冲突解决",
-        "开发环境 OS X ，熟悉常用的Linux命令。在云服务器上搭建所需环境(Apache、PHP、Nginx、MySQL等)"
+        "版本控制使用`git`，使用GitHub协作开发，熟悉协同开发流程，冲突解决",
+        "开发环境 `OS X` ，熟悉常用的Linux命令。在云服务器上搭建所需环境(Apache、PHP、Nginx、MySQL等)"
     ]
+  }],
+  "experience": [{
+    "type": "internship",
+    "techtype": "java",
+    "place": "阿里巴巴-阿里云-体验技术部",
+    "start": "2018.06",
+    "end": "2018.08",
+    "name": "java开发/前端开发 （实习）",
+    "description": [
+      "阿里云`商品投放体系建设`",
+      "阿里云官网导航公共模块改版"
+    ],
+    "stack": ["java"]
+    },{
+      "type": "internship",
+      "techtype": "nodejs",
+      "place": "红岩网校工作站web研发部副部长",
+      "start": "2016.05",
+      "end": "2018.06",
+      "name": "Node.js 开发/前端开发",
+      "description": [
+        "`重邮小帮手(校团委官方微信服务号)`校内学生关注率第一(90%+)的公众号",
+        "主要负责日常功能模块运行，日常项目、API接口维护，git仓库管理等工作",
+        "2017年2月获得 全国高校服务号排行榜 第二名"
+      ],
+      "stack": ["nodejs"]
+    },{
+      "type": "project",
+      "techtype": "backend",
+      "project_type": "personal",
+      "name": "阿里云商品投放体系-内容平台（合作完成）",
+      "source": "",
+      "demo": "",
+      "description": [
+        "`项目描述`：本项目是为了解决目前阿里云的云产品没有信息管理的平台。作用：将基础产品转换成营销商品。之前运营填写的营销商品信息是一次性的。现在商品信息都在内容平台配置，信息可复用，可集中管理。大幅度提高了运营工作效率。",
+        "`后端技术`: `Spring Boot` + `SpringMVC` + `Mysql` + `HSF` + `TDDL` + `Pandora Boot` + `Mybatis`",
+        "`前端技术`: react + mbox + dawn(集成webpack的脚手架)",
+        "`责任描述`: 参与商品单元模块和投放模块的数据库设计，后端接口编写，前端页面编写"
+      ],
+      "stack": ["java"],
+      "compatibility": "IE9+"
+    },{
+      "type": "project",
+      "techtype": "frontend",
+      "project_type": "personal",
+      "name": "前端组件化框架（独立完成）",
+      "source": "https://github.com/tobacco91/twenty",
+      "demo": "",
+      "description": [
+          "实现了`组件化`和`单项数据流`",
+          "该框架并没有用到虚拟dom来优化性能，而是使用了不同的思想来减少dom操作",
+          "这个框架拥有`模板引擎（view层）`，`state（数据层）`，`事件处理`，`观察者模块`，`view-model关联模块`,`组件模块` 这几个模块",
+          "使用webpack打包"
+      ],
+      "stack": ["js"],
+      "compatibility": "IE9+"
   }]
 }
